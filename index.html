@@ -2,23 +2,33 @@
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <title>Hava Durumu Uygulaması</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eseringo - Canlı Hava Durum Uygulaması</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="card">
         <div class="search">
-            <input type="text" placeholder="Hava Durumunu öğrenmek istediğiniz şehir ismi giriniz..." spellcheck="false">
-            <button>Ara</button>
+            <input type="text" placeholder="Şehir ismi giriniz..." spellcheck="false">
+            <button id="search-btn">Ara</button>
         </div>
         <div class="weather">
             <h1 class="temp">--°C</h1>
             <h2 class="city">Şehir</h2>
             <div class="details">
-                <p>Nem: <span class="humidity">--%</span></p>
-                <p>Rüzgar: <span class="wind">-- km/s</span></p>
+                <div class="col">
+                    <p>Nem</p>
+                    <span class="humidity">--%</span>
+                </div>
+                <div class="col">
+                    <p>Rüzgar</p>
+                    <span class="wind">-- km/s</span>
+                </div>
             </div>
         </div>
+        <footer style="margin-top: 20px; font-size: 10px; color: #eee; opacity: 0.7;">
+            Developed by Ayvaz Eser Ölugi
+        </footer>
     </div>
     <script src="script.js"></script>
 </body>
