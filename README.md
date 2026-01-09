@@ -24,6 +24,7 @@ API: OpenWeatherMap API entegrasyonu.
 Fetch API: Veri çekme işlemleri için asenkron async/await yapısı kullanılmıştır.
 
 ⚙️ Kurulum ve Kullanım ⚙️
+
 Bu depoyu klonlayın veya dosyaları indirin.
 
 OpenWeatherMap üzerinden ücretsiz bir API anahtarı (API Key) alın.
@@ -43,11 +44,10 @@ index.html dosyasını tarayıcınızda açarak kullanmaya başlayın.
 
 └── README.md    # Proje dokümantasyonu
 
-👤 Proje Sahibi
-
-Ayvaz Eser Ölugi
+👤 Proje Sahibi : Ayvaz Eser Ölugi
 
 GitHub: @EserOlugi (https://github.com/EserOlugi)
 
 
 LinkedIn: @AyvazEserÖlugi (https://www.linkedin.com/in/ayvaz-eser-%C3%B6lugi/)
+
